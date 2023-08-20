@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(24, 23, 23);
+  font-family: Arial;
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.move-icon {
+  width: 50px;
+  cursor: pointer;
+}
+.box .h2contant{
+  margin-left:20px;
+}
+.move-button {
+  background-color: transparent;
+  border: solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.js-result {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.ressult-isyou {
+  margin-left: 55px;
+}
+.commandGameKey{
+  margin-left: 12px;
+  color: white;
+  font-size:18px;
+}
+.commandGameKey button{
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 45px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(0, 177, 18);
+  margin-left: 20px;
+  border-bottom: none;
+  border: none;
+}
+.cheange_colorkey{
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 45px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(98, 229, 111);
+  margin-left: 20px;
+  border-bottom: none;
+  border: none;
+}
+.auto-play-button,
+.resetsocre-button {
+  color: white; 
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  border-bottom: none;
+  border: none;
+  margin-left: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(236, 192, 15);
+}
+.resetsocre-button{
+  margin-left: 40px;
+}
+.auto-stop-button {
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  border-bottom: none;
+  border: none;
+  background-color: rgb(0, 115, 160);
+}

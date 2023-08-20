@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Project</title>
+    <link rel="stylesheet" href="styleRock.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1 class="h2contant">Rcok Paper Soccor</h1>
+        <button class="move-button js-rock-button">
+          <img src="image/rock-emoji.png" class="move-icon" />
+        </button>
+        <button class="move-button js-paper-button">
+          <img src="image/paper-emoji.png" class="move-icon" />
+        </button>
+        <button class="move-button js-scissors-button">
+          <img src="image/scissors-emoji.png" class="move-icon" />
+        </button>
+
+        <div class="ressult-isyou">
+          <p class="js-result"></p>
+          <p class="js-move"></p>
+          <p class="js-score"></p>
+        </div>
+
+        <button
+          onclick="
+        score.wins=0;
+        score.losse=0;
+        score.ties=0;
+        localStorage.removeItem('score');
+        updateScore();
+    "
+          class="resetsocre-button"
+        >
+          Reset Score
+        </button>
+
+        <button class="auto-play-button" onclick="autoPlay()">Auto Play</button>
+
+        <div class="commandGameKey">
+          <p>How to using keyboard play this gamge</p>
+          <button>R => Rock</button>
+          <button>P => Paper</button>
+          <button>S => Scissors</button>
+        </div>
+      </div>
+    </div>
+    <script src="js-Rock.js"></script>
+  </body>
+</html>
