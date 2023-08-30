@@ -13,6 +13,7 @@ body {
 .move-icon {
   width: 50px;
   cursor: pointer;
+  
 }
 .box .h2contant{
   margin-left:20px;
@@ -72,7 +73,7 @@ body {
   margin-left: 25px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: rgb(236, 192, 15);
+  background-color:rgb(250,192,54)
 }
 .resetsocre-button{
   margin-left: 40px;
