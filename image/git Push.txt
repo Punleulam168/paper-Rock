@@ -1,0 +1,6 @@
+git Push 
+-------------------
+ 1 git status 
+ 2 git add 
+ 3 git commit -m "Name That's you put it down"
+ 4 git push
